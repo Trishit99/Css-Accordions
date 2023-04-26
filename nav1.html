@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .som{
+            background-color: tomato;
+            width: 250px;
+            height: 300px;
+            opacity: 0.5;
+        }
+        p{
+            color: aqua;
+        }
+        p:hover{
+            border-radius: 25px;
+            color: yellow;
+            border: solid red 2px ;
+            
+        }
+        /* .para{
+            height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+     */
+.som{
+    animation-name: soumya;
+    animation-duration: 5s;
+    animation-iteration-count:infinite;
+    position: relative;
+}
+@keyframes soumya{
+    from{
+            background-color: tomato;
+             width: 250px;
+            height: 300px;
+            opacity: 0.5;
+            left: 20px;
+    }
+    to{
+        background-color: seagreen;
+        width: 90px;
+            height: 100px;
+            opacity: 0.2;
+            left: 120px;
+    }
+}
+
+.trish{
+    background-color: turquoise;
+
+}
+
+    </style>
+
+</head>
+<body>
+    <div class="som">
+
+    </div>
+    <div class="trish"> </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ullam, illo laborum reiciendis suscipit cumque quis blanditiis distinctio incidunt quas quo esse, eligendi exercitationem minus fugiat nam sequi assumenda debitis recusandae! Eligendi beatae accusamus aspernatur amet magnam laudantium provident libero molestiae rerum eos! Voluptatem, id.</p>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus ullam, illo laborum reiciendis suscipit cumque quis blanditiis distinctio incidunt quas quo esse, eligendi exercitationem minus fugiat nam sequi assumenda debitis recusandae! Eligendi beatae accusamus aspernatur amet magnam laudantium provident libero molestiae rerum eos! Voluptatem, id.</p>
+</body>
+</html>
